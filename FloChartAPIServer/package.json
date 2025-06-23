@@ -1,0 +1,21 @@
+{
+  "name": "FloChartAPIServer",
+  "version": "1.0.0",
+  "description": "FloChart-API-Server",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.17.0",
+    "axios": "^0.20.0",
+    "graphql": "^15.3.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "nodemon": "^2.0.4"
+  }
+}
